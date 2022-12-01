@@ -13,7 +13,7 @@ This week I learned about exception handling and pickling. Exception handling is
 
 Exception handling is a tool in programming that allows the developer to control the error messages displayed to the user. The most basic format of exception handling is using a try statement with an except clause. With this format, some code that could potentially raise an error is sectioned into the try statement and the except clause is executed only if an error is triggered. The except clause can be specific or non-specific. A nonspecific except clause will execute if any error is encountered in the try code. Figure 1 shows an example of the most basic format with a non-specific except clause. In figure 1, the user entered a string of characters which could not be converted to a float value, so the Except clause was triggered and displayed the programmed error message. Figure 2 shows the error message built into Python for the same error of entering a string of characters that could not be converted to a float. This error message is much messier and may be difficult for the user to understand. 
 
-(./images/Fig1.png)
+![This is Fig1](./images/Fig1.png)
 Figure 1: Basic Try Statement with Except Clause
 
 Figure 2: Error Message without Try Statement and Except Clause
